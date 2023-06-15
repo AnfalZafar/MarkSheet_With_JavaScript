@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<style>
+    .output{
+        width: 50%;
+        margin: auto;
+    }
+</style>
+<body>
+    
+    <div class="output mt-5">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="inst" placeholder="Enter Your Institude Name">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control"  id="batch" placeholder="Enter Your Batch">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" id="r1" placeholder="Enter Your R1 Marks">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="r2" placeholder="Enter Your R2 Marks">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="modu" placeholder="Enter Your Modular">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="sem" placeholder="Enter Your Semister End Exam">
+          </div>
+    </div>
+    <button type="submit" class="btn btn-danger" onclick="add()">Submit</button>
+    <table class="table" >
+       
+        <tbody id="result">
+         
+        </tbody>
+      </table>
+
+
+
+<script src="javascript/java.js"></script>
+
+</body>
+</html>
